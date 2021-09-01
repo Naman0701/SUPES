@@ -1,0 +1,137 @@
+body
+{
+    font-family: 'Playball', cursive;
+    margin: 0px;
+    padding: 0px;
+    background: url("IMU.jpg");
+    /* height: 4000px; */
+    color: whitesmoke;
+
+}
+
+
+
+#lt
+{
+    display: inline-block;
+    position: absolute;
+    left: 60px;
+    top: 20px;
+    /* border: 3px solid crimson; */
+}
+.pic
+{
+    width: 150px;
+    height: 156px;
+    display: block;
+    margin: 5px auto;
+    filter: invert(100%);
+}
+#lt div{
+    text-align: center;
+    line-height: 10px;
+    font-size: 25px;
+}
+
+
+
+#ct
+{
+    width: 40%;
+    margin: 20px auto;
+    /* border: 3px solid rgb(103, 173, 220);
+    border-bottom-right-radius: 25px; */
+    /* border-top-left-radius: 25px; */
+    /* color: chartreuse; */
+    /* background-color: rgb(207, 157, 31); */
+}
+
+.bar li{
+    display: inline-block;
+    font-size: 19px;
+}
+.bar li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border: 3px solid crimson;
+    border-radius: 19px;
+    padding: 4px 13px;
+    margin: 10px;
+    background-color: goldenrod;
+}
+.bar li a:hover, .bar li a.active{
+
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    background-color: rgb(206, 194, 27);
+}
+
+
+
+
+#rt
+    {
+        width: 300px;
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+        /* border: 3px solid rgb(57, 20, 220); */
+    }
+.btn
+{
+    padding: 2px 15px;
+    border: 5px solid cyan;
+    margin: 3px 15.5px;
+    border-radius: 15px;
+    background-color: burlywood;
+    cursor: pointer;
+    font-family: 'Playball', cursive;
+}
+.btn:hover{
+    background-color: goldenrod;
+    text-decoration: underline;
+}
+
+
+
+
+
+.conta{
+    position: absolute;
+    top: 151px;
+    left: 100px;
+    border: 3px dotted rgb(134, 134, 134);
+    width: 48%;
+    margin: 118px 59px;
+    padding: 71px;
+    border-radius: 30px;
+}
+.conta h1{
+    text-align: center;
+}
+.conta button{
+    display: block;
+    margin: 5px auto;
+    width: 75%;
+    height: 45px;
+    font-size: 25px;
+}
+
+.formg{
+    font-size: 25px;
+    display: block;
+    margin: 2px auto;
+}
+
+.formg input{  
+    text-align: center;
+    display: inline-block;
+    width: 321px;
+    padding: 6px 2px;
+    border: 2px solid cyan;
+    margin: 7px 15px;
+    font-size: 23px;
+    border-radius: 21px;
+    font-family: 'Playball', cursive;
+}
